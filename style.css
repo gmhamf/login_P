@@ -1,0 +1,39 @@
+body {
+    background-color: #000000;
+    background-image: url('img.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(241, 236, 236);
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 60px;
+    text-align: center;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    width: 20%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+}
